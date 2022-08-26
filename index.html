@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap"
+			rel="stylesheet"
+		/>
+		<title>codejam-eldritch</title>
+		<link href="css/style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="app">
+			<div class="ancients-container">
+				<div class="ancient-card azathoth"></div>
+				<div class="ancient-card cthulthu"></div>
+				<div class="ancient-card iogSothoth"></div>
+				<div class="ancient-card shubNiggurath"></div>
+			</div>
+			<div class="difficulty-container">
+				<img
+					class="logo"
+					src="assets/logo.png"
+					alt="Древний Ужас"
+					style="width: 400px"
+				/>
+				<div class="difficulty-list invisible">
+					<h3 class="difficulty-title">Уровни сложности</h3>
+					<div class="difficulty difficulty0">Очень легкий</div>
+					<div class="difficulty difficulty1">Легкий</div>
+					<div class="difficulty difficulty2">Средний</div>
+					<div class="difficulty difficulty3">Высокий</div>
+					<div class="difficulty difficulty4">Очень высокий</div>
+				</div>
+				<h1 class="main-title">Приложение-Хелпер</h1>
+			</div>
+			<div class="deck-container">
+				<div class="current-state invisible">
+					<div class="stage-container">
+						<span class="stage-text">Первая стадия</span>
+						<div class="dots-container">
+							<div class="dot green dot1"></div>
+							<div class="dot brown dot2"></div>
+							<div class="dot blue dot3"></div>
+						</div>
+					</div>
+
+					<div class="stage-container">
+						<span class="stage-text">Вторая стадия</span>
+						<div class="dots-container">
+							<div class="dot green dot4"></div>
+							<div class="dot brown dot5"></div>
+							<div class="dot blue dot6"></div>
+						</div>
+					</div>
+
+					<div class="stage-container">
+						<span class="stage-text">Третья стадия</span>
+						<div class="dots-container">
+							<div class="dot green dot7"></div>
+							<div class="dot brown dot8"></div>
+							<div class="dot blue dot9"></div>
+						</div>
+					</div>
+				</div>
+
+				<span class="shuffle-button invisible">Замешать колоду</span>
+				<div class="cards">
+					<div class="deck invisible"></div>
+					<div class="last-card-wrapper">
+						<div class="last-card invisible"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="module" src="js/script.js"></script>
+	</body>
+</html>
